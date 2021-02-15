@@ -4,9 +4,11 @@
 
 This is a personal project I created to learn and use React.js.
 
-It consists of a simple shopping app, using just react no Redux or any other library, I created a Flask API that communicates with the database through the endpoints that we use at the react app. The home page shows all the items we have stored in the database using the endpoit ‘/fetchProducts’ from the Flask API, a GET request from the API. Each product has an add to cart button with an onClick handler that sends the item to be stored in the database through the ‘/addToCart’ endpoint POST request. 
+The app is a shopping application. The front end is implemented using react.js and a backend is implemented using Flask API.
 
-On the Cart page, I use the ‘/fetchCart’ endpoint with GET request to show all the items that I stored in the cart data. Each item in the cart has a delete button with an onClick handler that deletes the item from the database using a ‘/deleteItem’ endpoint with a Delete method.
+The home page shows all the items we have stored in the database using the endpoint ‘/fetchProducts’. Each product has an add to cart button with an onClick handler that sends the item to be stored in the database through the ‘/addToCart’ endpoint POST request. 
+
+On the Cart page, I use the ‘/fetchCart’ endpoint with GET request to show all the items that I stored in the cart. Each item in the cart has a delete button with an onClick handler that deletes the item from the database using a ‘/deleteItem’ endpoint.
 
 ### How to run the app
 
